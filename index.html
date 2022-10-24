@@ -1,0 +1,157 @@
+<html>
+  <header id="banner"> Video Games </header>
+  
+  
+  
+  <nav>
+    <ul id="navmenu">
+<li> <a href="index.html"> Home </a> </li>
+<li> <aid="navmenu" href="games.html"> Games </a> </li>
+<li> <a href="videos.html"> Videos </a> </li>
+</ul>
+  </nav>
+  
+    <link type="text/css" rel="stylesheet" href="main.css" />
+    <title>Video Games</title>
+    <style>
+    
+    </style>
+  </head>
+  <div id="one"> apex legends is the best game evr  </div>
+<div id="two"> i am apart of the CDV apex legends team </div>
+<div id="three"> CDV is the best apex team </div>
+  <body id="background">
+
+    <h1>Apex Legends</h1>
+    <p class="paragraph">Apex legends is a fun battle royal game. you can chose from many different legends to play and use my personal favorite is wraith</p>
+  
+<h2>video game triva queston</h2>
+<div class="wrap-trivia">
+<h3>What is the best video game </h3>
+</div>
+    <form>
+        <div id="response"> </div>
+<input type="radio" name="trivia" value="yes"> 1st Possible Answer <br>
+<input type="radio" name="trivia" value="no"> 2nd Possible Answer <br>
+<input type="radio" name="trivia" value="no"> 3rd Possible Answer <br>
+<input type="radio" name="trivia" value="no"> 4th Possible Answer <br>
+<input onclick="answer()" type="button" id="submit" value="Click Here">
+        <input type="radio" name="trivia" value="EDIT">Apex legends <br>
+        <input type="radio" name="trivia" value="EDIT">fortnite <br>
+        <input type="radio" name="trivia" value="EDIT"> call of duty <br>
+        <input type="radio" name="trivia" value="EDIT"> minecraft <br>
+        <input type="button" value="Click Here" id="button">
+    </form>
+    <div class="wrap-list">
+    <ol>
+      <li class="listitem"> apex legends is the best first person shooter </li>
+      <li class="listitem"> fortnite it second  </li>
+      <li class="listitem"> call of duty is third  </li>
+    </ol>
+    </div>
+ <span class="wrap-text">apex legends is the best game ever</span>
+
+<script>
+  function banner(){
+var text = confirm("Did You Really Want to Click on My Banner?");
+return text;
+}
+
+function answer(){
+  var radio = document.getElementsByName("trivia");
+  var selection = false;
+  var message = "";
+  for( var i = 0; i < radio.length; i++) {
+if(radio[i].value == "yes" && radio[i].checked == true) {
+selection = true;
+  } //end if statement
+ } //end for loop
+ if(selection == true) {
+message = message + "<b><p style='color:green'>Way to go!</p></b>";
+} else {
+message = message + "<b><p style='color:red'>Try again my friend.</p></b>";
+}
+document.getElementById("response").innerHTML = messag
+ 
+} //end function answer
+  
+  
+  
+</script>
+
+
+
+
+<img width="15%" src="https://thumbs.dreamstime.com/z/apex-legends-logo-illustration-video-game-along-its-name-144082430.jpg" />
+<img width="15%" src="https://thumbs.dreamstime.com/z/apex-legends-free-to-play-first-person-shooter-battle-royale-game-developed-respawn-entertainment-published-202507232.jpg" />
+<hr />
+<center>Haydn Slomovitz <a href="https://simplystem.com/code-dungeon/">My Favorite Website</a></center>
+    
+    
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/0_6isV2An0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    
+    
+    
+<audio width="400" height="220" controls autoplay>
+<source src="http://www.w3schools.com/tags/horse.mp3" type="audio/mpeg">
+
+</audio>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </body>
+</html>
